@@ -2,7 +2,7 @@
 # FROM golang:1.13.1
 FROM golang:latest
 
-COPY ["switchRole.sh", "getParamStore.sh", "./var/"]
+COPY ["switchRole.sh", "getParamStore.sh", "/var/"]
 
 # Install golint
 ENV GOPATH /go
